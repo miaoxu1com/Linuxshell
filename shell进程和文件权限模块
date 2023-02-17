@@ -18,4 +18,6 @@ def doShell(path):
         except subprocess.CalledProcessError as call_e:
             print(call_e.output.decode(encoding="utf-8"))
         return ""
+
 https://blog.csdn.net/qdPython/article/details/127689439
+https://blog.csdn.net/zhoumoon/article/details/118753926
